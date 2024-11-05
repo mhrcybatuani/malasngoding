@@ -1,0 +1,272 @@
+:root {
+  --warna1: #ffffff; /* Warna putih */
+  --warna2: rgb(9, 177, 255); /* Warna biru */
+}
+
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.logo img {
+  float: left;
+  width: 10%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  float: right;
+  margin-right: 5%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: fixed;
+  top: 0;
+  background: none;
+  box-shadow: 0 0.1rem 1rem #368dff;
+  z-index: 1000;
+  background-color: #fff;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: rgb(44, 142, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #007bff;
+  font-size: 1.5rem;
+}
+
+.hero {
+  background-image: url('Background.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #000000;
+  padding: 200px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero h2:hover {
+  transform: translateY(-20px);
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Styling untuk tombol */
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+
+.hero a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.manfaat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.manfaat .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.manfaat .header .content {
+  flex: 1;
+  padding: 20px;
+}
+
+.manfaat .header img {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+.layanan {
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.layanan .apa-yang-kami-tawarkan {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #0449E5;
+  margin-bottom: 20px;
+}
+
+.layanan .container-1,
+.layanan .container-2,
+.layanan .container-3,
+.layanan .container-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.layanan .container-1,
+.layanan .container-2,
+.layanan .container-3,
+.layanan .container-4 {
+  background-color: #F9F9F9;
+  border-radius: 25px;
+  border: 1px solid rgba(4, 73, 229, 0.9);
+  padding: 20px;
+}
+
+.layanan .keselarasan-bisnis-dan-ti-1,
+.layanan .keselarasan-bisnis-dan-ti-2,
+.layanan .keselarasan-bisnis-dan-ti-3,
+.layanan .keselarasan-bisnis-dan-ti-4 {
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #0449E5;
+}
+
+.layanan span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #0b6cff;
+  text-align: center;
+  padding: 1rem 0 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: #000000;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: #ffffff;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #000000;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #000000;
+  font-weight: 700;
+}
+footer .credit p {
+  color: #000000;
+  font-weight: 700;
+}
+/* end Footer */
+
+

@@ -1,0 +1,219 @@
+/* Definisi warna yang digunakan */
+:root {
+  --warna1: #ffffff; /* Warna putih */
+  --warna2: rgb(9, 177, 255); /* Warna biru */
+}
+
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.logo img {
+  float: left;
+  width: 10%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  float: right;
+  margin-right: 5%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: fixed;
+  top: 0;
+  background: none;
+  box-shadow: 0 0.1rem 1rem #368dff;
+  z-index: 1000;
+  background-color: #fff;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: rgb(44, 142, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+/* Styling default */
+* {
+  margin: 0; /* Menghilangkan margin */
+  padding: 0; /* Menghilangkan padding */
+  box-sizing: border-box; /* Box model: border-box */
+  outline: none; /* Menghilangkan outline */
+  border: none; /* Menghilangkan border */
+  text-decoration: none; /* Menghilangkan dekorasi teks */
+}
+
+/* Styling untuk seluruh halaman */
+body {
+  font-family: Arial, sans-serif; /* Font keluarga Arial atau sans-serif */
+  text-align: center; /* Teks rata tengah */
+  color: black; /* Warna teks hitam */
+}
+
+/* Styling untuk bagian utama konten */
+main {
+  display: flex; /* Menggunakan flexbox */
+  flex-wrap: wrap; /* Wrap flex item jika tidak cukup ruang */
+  padding: 1rem; /* Padding */
+  text-align: center; /* Teks rata tengah */
+  background-color: var(--warna1); /* Menggunakan warna yang didefinisikan */
+  border-radius: 0.5rem; /* Membuat sudut melengkung */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); /* Efek bayangan */
+}
+
+/* Styling untuk kontainer */
+.container {
+  margin: 2rem; /* Margin */
+  padding: 2rem; /* Padding */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); /* Efek bayangan */
+  border-radius: 0.5rem; /* Membuat sudut melengkung */
+  /* background-color: var(--warna2); */
+  margin-top: 7rem;
+}
+
+/* Styling untuk judul utama */
+.judul-utama {
+  border: 1px solid #ddd; /* Garis tepi */
+  margin-bottom: 3rem; /* Margin bawah */
+  padding: 1rem; /* Padding */
+  padding: 0.5rem 3.5rem; /* Padding */
+  background-color: var(--warna1); /* Menggunakan warna yang didefinisikan */
+  border-radius: 0.5rem; /* Membuat sudut melengkung */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); /* Efek bayangan */
+  font-size: 20px; /* Ukuran font */
+}
+
+/* Styling untuk kolom layanan */
+.layanan-column {
+  width: 200px; /* Lebar */
+  height: 550px; /* Tinggi */
+  flex: auto; /* Fleksibel */
+  margin: 0 1rem 1rem 0; /* Margin */
+  padding: 1.5rem; /* Padding */
+  border-radius: 1.5rem; /* Membuat sudut melengkung */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); /* Efek bayangan */
+  /* background-color: rgb(0, 162, 255); */
+}
+
+/* Styling untuk judul layanan */
+.judul {
+  border: 1px solid #ddd; /* Garis tepi */
+  margin-bottom: 3rem; /* Margin bawah */
+  padding: 1rem; /* Padding */
+  padding: 0.5rem 3.5rem; /* Padding */
+  /* background-color: var(--warna2);  */
+  border-radius: 0.5rem; /* Membuat sudut melengkung */
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5); /* Efek bayangan */
+  font-size: 20px; /* Ukuran font */
+}
+
+/* Styling untuk isi layanan */
+.isi {
+  border-radius: 0.5rem; /* Membuat sudut melengkung */
+  /* background-color: var(--warna2);  */
+  text-align: start; /* Teks rata kiri */
+  padding: 10px; /* Padding */
+  margin-bottom: 3rem; /* Margin bawah */
+}
+
+.isi p {
+  margin: 10px; /* Margin antara paragraf */
+}
+
+/* Styling untuk tombol */
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  background-color: #0b6cff;
+  text-align: center;
+  padding: 1rem 0 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: #000000;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: #ffffff;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #000000;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #000000;
+  font-weight: 700;
+}
+footer .credit p {
+  color: #000000;
+  font-weight: 700;
+}
+/* end Footer */

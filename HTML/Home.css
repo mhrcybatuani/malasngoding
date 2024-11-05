@@ -1,0 +1,202 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.logo img {
+  float: left;
+  width: 10%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  float: right;
+  margin-right: 5%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: fixed;
+  top: 0;
+  background: none;
+  box-shadow: 0 0.1rem 1rem #368dff;
+  z-index: 1000;
+  background-color: #fff;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: rgb(44, 142, 255);
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+
+/* ATTRIBUTE */
+
+.Atribute {
+  margin-top: 7rem;
+}
+.image-wrapper {
+  float: left;
+  margin-right: 20px; /* untuk memberikan jarak antara gambar dan teks */
+}
+
+/* Aturan untuk ukuran gambar kecil */
+.gambar-kecil {
+  width: 100%;
+  height: auto;
+}
+
+/* Aturan untuk section */
+section {
+  margin: auto;
+  display: flex;
+  margin: 50px;
+}
+
+.kolom {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 600px;
+  font-weight: bold;
+  font-family: "comin sans ms";
+  color: #010e10;
+}
+
+h2 {
+  font-family: "comin sans ms";
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #010e10;
+  width: 100%;
+  line-height: 50px;
+}
+a.tbl-biru {
+  background: #0095eb;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-biru:hover {
+  background: #bd0000;
+  text-decoration: none;
+}
+
+a.tbl-merah {
+  background: #bd0000;
+  border-bottom: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+}
+a.tbl-merah:hover {
+  background: #0080ff;
+  text-decoration: none;
+}
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+/* Footer */
+footer {
+  background-color: #0b6cff;
+  text-align: center;
+  padding: 1rem 0 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: #000000;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: #ffffff;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #000000;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #000000;
+  font-weight: 700;
+}
+footer .credit p {
+  color: #000000;
+  font-weight: 700;
+}
+/* end Footer */
